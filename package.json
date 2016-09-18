@@ -1,0 +1,11 @@
+{
+  "name": "soulja-boy",
+  "version": "1.0.0",
+  "description": "YOOOOOUUUU",
+  "main": "index.js",
+  "author": "widd",
+  "license": "MIT",
+  "dependencies": {
+    "discord.io": "^2.2.1"
+  }
+}
