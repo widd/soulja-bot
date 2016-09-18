@@ -11,7 +11,7 @@ bot.on('ready', function() {
 
 bot.on('message', function(user, userID, channelID, message, event) {
     let content = message.toLowerCase();
-    let pattern = /^(y|u)([o|u]+)?/;
+    let pattern = /^(y[(o|u)]+|u+)(?=($|\s))/;
     if (pattern.exec(content) != null) {
         console.log("YOOOOUUUU @ "+user);
         bot.uploadFile({
